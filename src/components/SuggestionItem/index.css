@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.list {
+  list-style-type: none;
+}
+
+.listCard {
+  display: flex;
+}
+.button {
+  margin-left: auto;
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
+
+.a-image {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+}

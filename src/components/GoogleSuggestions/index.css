@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  max-width: 600px;
+  margin-top: 60px;
+  padding-top: 20px;
+  border-radius: 18px;
+}
+.g-image {
+  width: 12vw;
+  height: 8vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.input-container {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.s-image {
+  width: 20px;
+  height: 20px;
+}
+.search-input {
+  background-color: #ffffff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.g-card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  max-width: 350px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-container {
+    width: 60%;
+  }
+}
